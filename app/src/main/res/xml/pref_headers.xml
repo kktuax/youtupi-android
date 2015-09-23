@@ -2,13 +2,6 @@
 
     <!-- These settings headers are only used on tablets. -->
 
-    <header android:fragment="es.maxtuni.youtupi.SettingsActivity$GeneralPreferenceFragment"
-        android:title="@string/pref_header_general" />
-
-    <header android:fragment="es.maxtuni.youtupi.SettingsActivity$NotificationPreferenceFragment"
-        android:title="@string/pref_header_notifications" />
-
-    <header android:fragment="es.maxtuni.youtupi.SettingsActivity$DataSyncPreferenceFragment"
-        android:title="@string/pref_header_data_sync" />
+    <header android:fragment="es.maxtuni.youtupi.SettingsActivity$GeneralPreferenceFragment" android:title="@string/pref_header_general" />
 
 </preference-headers>
