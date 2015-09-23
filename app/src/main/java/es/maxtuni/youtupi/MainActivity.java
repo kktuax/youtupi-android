@@ -59,6 +59,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onRestart() {
+        super.onRestart();
+        loadUrlInWebView();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        loadUrlInWebView();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();
